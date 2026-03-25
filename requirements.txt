@@ -2,3 +2,5 @@ pandas
 ipykernel
 pyarrow
 matplotlib
+scikit-learn
+xgboost
