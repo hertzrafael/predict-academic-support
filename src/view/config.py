@@ -4,11 +4,13 @@ class Config:
         self.nav_icons = [
             {
                 "name": "Estatísticas",
-                "icon": "chart-column"
+                "icon": "chart-column",
+                "route": "/"
             },
             {
                 "name": "Simulação",
-                "icon": "flask-conical"
+                "icon": "flask-conical",
+                "route": "/simulation"
             }
         ]
 

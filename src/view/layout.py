@@ -1,14 +1,13 @@
-from dash import html
+from dash import html, dash
 import dash_bootstrap_components as dbc
 
-from view.sidebar import sidebar
-from view.principal import principal
+from sidebar import sidebar
 
 
 def get():
     return dbc.Container([
         html.Div([
             sidebar.get(),
-            principal.get()
+            dash.page_container
         ], className="flex flex-col md:flex-row")
     ])
