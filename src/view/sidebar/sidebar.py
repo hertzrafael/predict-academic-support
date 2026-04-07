@@ -24,7 +24,7 @@ def get():
                 id="sidebar-nav-container",
             ),
         ],
-        className="bg-[#151C28] w-screen p-3 md:h-screen md:max-w-2xs md:min-w-3xs",
+        className="bg-[#151C28] w-screen p-3 md:min-h-screen md:max-w-2xs md:min-w-3xs",
     )
 
 
