@@ -21,7 +21,7 @@ def get():
                     placeholder="Selecione..."
                 )
             ],
-            className="bg-white rounded-lg border border-gray-200 p-4 w-full md:w-1/3"
-        ), 
-        className="mt-8 p-3 w-full"
+            className="bg-white rounded-lg border border-gray-200 p-4 w-full"
+        ),
+        className="md:col-span-2"
     )

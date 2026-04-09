@@ -13,6 +13,7 @@ from pages.page_contents.principal.callbacks import race_target_callback
 
 from pages.page_contents.simulation.callbacks import simulation_callback
 from pages.page_contents.simulation.callbacks import selector_callback
+from pages.page_contents.simulation.callbacks import insight_callback
 
 import dash_bootstrap_components as dbc
 

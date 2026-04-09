@@ -7,3 +7,6 @@ xgboost
 dash
 dash_bootstrap_components
 dash-iconify
+langchain
+langchain-google-genai
+dotenv
